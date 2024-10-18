@@ -5,7 +5,7 @@
      <div class="">
            <nav class="flex justify-between px-3 pt-2">
       <img class="w-32 h-16" src="../images/logo1.png"/>
-      <img @click="toggleVisibility" class="w-12 h-10 mt-5 md:hidden" src="../images/lines.png"/>
+      <img @click="toggleVisibility" class="w-12 h-10 mt-5 md:hidden" src="../images/hum2.png"/>
       <div class="text-white gap-5 md:gap-9 md:flex items-center hidden">
         <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Home</a>
         <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#about">About</a>
@@ -20,23 +20,22 @@
         <!-- END:: Navbar for Desktop -->
 
             <!-- START:: Navbar for mobile -->
-              <nav class="md:hidden text-center" v-if="!hide">
-                
-                <div class="text-white absolute w-[100%] h-full text-xl space-y-5 p-3">
-                  <div class="bg-black w-[100%] h-[100%] absolute opacity-80"></div>
-                  <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-10 relative" href="#">Home</a>
+              <nav class="md:hidde text-center" v-if="!hide">
+                <div class="text-white absolute w-full h-full text-xl space-y-5 p-3 z-20">
+                  <div class="bg-black w-full h-full absolute opacity-80 mt-[-20px]"></div>
+                  <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-30 relative" href="#">Home</a>
                   <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-10 relative" href="#about">About</a>
                   <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-10 relative" href="#how">How it Works</a>
-                  <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-10 relative" href="#feauture">Features</a>
-                  <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-10 relative" href="#">Pricing</a> <br>
-                  <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black border-[#EB8D41] border-2 bg-[#EB8D41] rounded-3xl p-1 px-5 ml-[-10px] z-10 relative" href="#contact">Contact us</a>
+                  <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-10 relative" href="#feature">Features</a>
+                  <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-10 relative pb-6" href="#">Pricing</a>
+                  <a class="mt-12 hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black border-[#EB8D41] border-2 bg-[#EB8D41] rounded-3xl p-1 px-5 z-10 relative" href="#contact">Contact us</a>
                 </div>
               </nav>
     
             <!-- END:: Navbar for mobile -->
 
-
-    <div class="mx-5 mb-12 mt-3 bg-slate-800 p-[0.5px]"></div>
+<!-- FAINT LINE UNDER THE NAV -->
+    <div class="bg-slate-800 h-1 mx-10 my-6"></div>
 
 <div class="px-12">
     <!-- START:: Hero section -->
@@ -47,7 +46,7 @@
       data-aos-duration="1500"
       data-aos-delay="500"
       >
-        <img class="md:w-[85%] sm:w-[85%] md:h-[524px]" src="../images/hero1.png" alt="">
+        <img class="md:w-[85%] sm:w-[85%] md:h-[524px] -z-10" src="../images/hero1.png" alt="">
       </div>
 
       <div class="md:w-[50%] md:mt-[-20px] sm:mt-[-20px]">
@@ -92,7 +91,7 @@
     <!-- START:: Why zeazn -->
      <div class="md:flex justify-between">
       <div class="text-white">
-        <h4 class="text-3xl sm:text-4xl mt-5 sm:mt-16 md:mt-20 md:mb-10">Why Zeazn?</h4>
+        <h4 class="text-3xl sm:text-4xl mt-10 sm:mt-16 md:mt-20 md:mb-10">Why Zeazn?</h4>
         <ul class="list-disc space-y-4 ml-0 sm:ml-10">
   <li class="text-white">
     Discover Groundbreaking Projects: Explore innovative ideas across various industries.
@@ -209,7 +208,7 @@
      <div class="grid sm:grid-cols-2 justify-between mt-8 sm:mt-20">
       <div class="text-white">
         <h1 class="text-3xl sm:text-4xl sm:text-start md:text-start ml-12 sm:ml-0 sm:mb-8">Creators Wanted</h1>
-        <p class="text-sm">
+        <p class="text-sm text-center">
           Are you an innovator with a Groundbreaking idea? Zeazn is the perfect <br> platform to showcase your project and connect with suppertors.
         </p>
         <div class="flex gap-7 md:gap-9 mt-3 md:ml-0  sm:mt-20">
@@ -237,7 +236,7 @@
     <!-- END:: creators wanted -->
 
     <!-- START:: About zeazn -->
-     <div id="about" class="text-center text-white mt-9">
+     <div id="about" class="text-center text-white mt-10 sm:mt-20">
       <h1 class="text-4xl mb-2">About Zeazn</h1>
       <p>At Zeazn, our mission is to 
         bridge the gap between vissionary creators and enthusiatic supporters.
@@ -254,7 +253,7 @@
 
     <!-- START:: frequently ask question -->
     <h1 class="text-white text-xl font-semibold md:font-normal md:text-4xl mt-10 mb-2 md:ml-60">Frequently Asked Questions</h1>
-     <div class="text-white flex md:justify-center mb-16">
+     <div class="text-white flex md:justify-center mb-10">
       <div class="">
          <h1 class="mb-4">Q: When will the Zeazn app be available? </h1>
          <h1 class="mb-4">A: We're launching soon! Sign up to be the first to know. </h1>
@@ -281,7 +280,7 @@
     </div>
     <!-- END:: frequently ask question -->
 
-    <h1 class="text-white text-center text-4xl md:pb-10">Ready to Ignite Innovation?</h1>
+    <h1 class="text-white text-center text-2xl sm:text-4xl pb-3 md:pb-10">Ready to Ignite Innovation?</h1>
     <div class="flex justify-center">
       <img class="md:w-[85%] md:h-[500px]" src="../images/head3.png" alt="">
     </div>
@@ -330,18 +329,18 @@
         <img class="w-[330px] md:w-[280px] h-[200px] md:h-[170px]" src="../images/logo3.png" alt="">
         <div class="flex flex-col items-center space-y-2 text-center md:items-start md:text-left">
         <h1 class="font-bold md:font-normal mt-5">Important Links</h1>
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#how">How it Works</a>
-        <a href="#feature">Features</a>
-        <a href="#">Pricing</a>
+        <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Home</a>
+        <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#about">About</a>
+        <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#how">How it Works</a>
+        <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#feature">Features</a>
+        <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Pricing</a>
       </div>
 
         <div class="flex flex-col items-center space-y-1 text-center md:items-start md:text-left">
           <h1 class="font-bold md:font-normal mt-7">Legal</h1>
-          <a href="#">Terms of Use</a><br>
-          <a href="#">Privacy Policy</a><br>
-          <a href="contact">Contact Us</a>
+          <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Terms of Use</a><br>
+          <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Privacy Policy</a><br>
+          <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="contact">Contact Us</a>
         </div>
       </div>
      </div>
@@ -349,10 +348,10 @@
 
     <!-- START:: media -->
      <div class="flex pb-10 md:pr-16 gap-4 justify-end mt-20">
-      <img class="w-4 h-4" src="../images/twitter.png" alt="">
-      <img class="w-4 h-4" src="../images/linkedin.png" alt="">
-      <img class="w-4 h-4" src="../images/facebook.png" alt="">
-      <img class="w-4 h-4" src="../images/web.png" alt="">
+      <a href="#"> <img class="w-4 h-4" src="../images/twitter.png" alt=""></a>
+      <a href="#"> <img class="w-4 h-4" src="../images/linkedin.png" alt=""></a>
+      <a href="#"> <img class="w-4 h-4" src="../images/facebook.png" alt=""></a>
+      <a href="#"> <img class="w-4 h-4" src="../images/web.png" alt=""></a>
       <img class="ml-12 md:ml-60 w- h-5" src="../images/zean.png" alt="">
      </div>
     <!-- END:: media -->
