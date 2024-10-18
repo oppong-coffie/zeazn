@@ -138,37 +138,49 @@
     <!-- END:: how zeazn work -->
 
    <!-- START:: features you will love -->
-<div class="flex flex-col justify-center col-span-1 text-white">
+   <div class="flex flex-col justify-center col-span-1 text-white">
   <h2 class="text-3xl sm:text-4xl md:text-5xl text-center my-5 sm:my-8 md:my-10">Features You'll Love</h2>
   
   <div class="sm:flex sm:gap-10 md:gap-16 justify-center sm:px-10 md:px-32 space-y-5 sm:space-y-0">
     <!-- Feature 1 -->
-    <div class="border-2 rounded-xl text-center sm:w-64 md:w-52 border-[#EB8D41] py-8 sm:py-12 md:py-20 p-3 bg-slate-950 relative z-10">
+    <div class="border-2 rounded-xl text-center sm:w-64 md:w-52 border-[#EB8D41] py-8 sm:py-12 md:py-20 p-3 bg-slate-950 relative z-10 transform transition-transform duration-500 ease-out hover:shadow-2xl hover:-translate-y-3">
       <div class="flex justify-center">
-        <img class="w-16 pb-1" src="../images/user.png" alt="">
+        <img class="w-16 sm:w-20 md:w-24 pb-1 transition-transform duration-500 hover:scale-110" src="../images/user.png" alt="">
       </div>  
-      <p class="text-white text-sm sm:text-base md:text-md">
-        User-Friendly Interface: Navigate with ease and find projects that match your interests.
+      <p class="text-white text-sm sm:text-base md:text-md transition-transform duration-500 hover:scale-90">
+        
+
+User-Friendly Interface: Navigate with ease and find projects that match your interests.
+
       </p>        
     </div>
     
     <!-- Feature 2 -->
-    <div class="border-2 rounded-xl text-center sm:w-64 md:w-52 border-[#EB8D41] py-8 sm:py-12 md:py-20 p-3">
+    <div class="border-2 rounded-xl text-center sm:w-64 md:w-52 border-[#EB8D41] py-8 sm:py-12 md:py-20 p-3 bg-slate-950 relative z-10 transform transition-transform duration-500 ease-out hover:shadow-2xl hover:-translate-y-3">
       <div class="flex justify-center">
-        <img class="w-16 pb-1" src="../images/secure.png" alt="">
+        <img class="w-16 sm:w-20 md:w-24 pb-1 transition-transform duration-500 hover:scale-110" src="../images/secure.png" alt="">
       </div>
-      <p class="text-white text-sm sm:text-base md:text-md">
-        Secure Transactions: Feel confident with our robust security measures.
+      <p class="text-white text-sm sm:text-base md:text-md transition-transform duration-500 hover:scale-90">
+        
+Secure Transactions: Feel confident with our robust security measures.
+
       </p>        
     </div>
 
     <!-- Feature 3 -->
-    <div class="border-2 rounded-xl text-center sm:w-64 md:w-52 border-[#EB8D41] py-8 sm:py-12 md:py-20 p-3 bg-slate-950 relative z-10">
+    <div class="border-2 rounded-xl text-center sm:w-64 md:w-52 border-[#EB8D41] py-8 sm:py-12 md:py-20 p-3 bg-slate-950 relative z-10 transform transition-transform duration-500 ease-out hover:shadow-2xl hover:-translate-y-3">
       <div class="flex justify-center">
-        <img class="w-16 pb-1" src="../images/direct.png" alt="">
+        <img class="w-16 sm:w-20 md:w-24 pb-1 transition-transform duration-500 hover:scale-110" src="../images/direct.png" alt="">
       </div> 
-      <p class="text-white text-sm sm:text-base md:text-md">
-        Direct Communication: Engage with creators through video updates and messages.
+      <p class="text-white text-sm sm:text-base md:text-md transition-transform duration-500 hover:scale-90">
+        
+
+
+
+
+
+Direct Communication: Engage with creators through video updates and messages.
+.
       </p>        
     </div>
   </div>
@@ -179,6 +191,7 @@
     <img class="hidden sm:block w-60 sm:w-64 md:w-72" src="../images/line2.png" alt="">
   </div>
 </div>
+
 
     <!-- END:: features you will love -->
 
@@ -367,7 +380,7 @@ import 'vue3-carousel/dist/carousel.css'
 // Import images using ES6 imports
 import image1 from '../images/head3.png'
 import image2 from '../images/creators.png'
-import image3 from '../images/hero1.png'
+import image3 from '../images/slide2.png'
 import image4 from '../images/creators.png'
 export default {
   data() {
