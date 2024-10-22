@@ -401,15 +401,17 @@ import { Carousel, Pagination, Slide } from 'vue3-carousel'
 // Import the carousel CSS
 import 'vue3-carousel/dist/carousel.css'
 // Import images using ES6 imports
-import image1 from '../images/head3.png'
-import image2 from '../images/creators.png'
-import image3 from '../images/slide2.png'
-import image4 from '../images/creators.png'
+import image2 from '../images/blackpics (1).jpg'
+import image3 from '../images/blackpics (2).jpg'
+import image4 from '../images/blackpics (3).jpg'
+import image5 from '../images/blackpics (4).jpg'
+import image6 from '../images/blackpics (5).jpg'
+import image7 from '../images/slide2.png'
 export default {
   data() {
     return {
       hide: true,
-      images: [image1, image2, image3, image4],
+      images: [image2, image3, image4, image5, image6, image7],
       autoplayInterval: null, // To store the interval ID
     }
   },
