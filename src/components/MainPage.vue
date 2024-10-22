@@ -54,8 +54,9 @@
           <img class="ml-[-30px] md:ml-0 w-[100%] md:w-[90%] md:h-[350px] mt-5 md:mt-[-15px]" src="../images/emp.png" alt="">
         </div> -->
         <h1 class="font-semibold text-2xl sm:text-3xl md:text-5xl md:text-end">Empowering Innovation Through Crowdfunding</h1>
-        <p class="md:text-end mt-3 sm:mt-5 md:mt-10">Unlock the Future of Innovation <br class="hidden md:block"/>
-          Be the first to join Zeazn, the revolutionary <br class="hidden md:block"/>crowdfunding platform connecting inventors, creators, <br class="hidden md:block"/>and innovators with supporters like you.
+        <p class="md:text-end mt-3 sm:mt-5 md:mt-10">Unlocking the brilliance of Creators and their projects is at the heart of Zeazn Invest. 
+           <br class="hidden md:block"/>We believe creators are the story tellers of the unfolding narratives of creativity harnessed by each generation.
+            <br class="hidden md:block"/>In todays expression of unrivalled talent, that unique creator is You.
           </p>
           <p class="md:text-end mt-2 sm:mt-2 md:mt-5">Join the Innovation Movement<br class="hidden md:block"/>
           Sign up now to stay updated and be among the first to <br class="hidden md:block"/> download the Zeazn app when it launches.<br class="hidden md:block"/>
@@ -82,7 +83,7 @@
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/ebay.png" alt="">
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/paypal.png" alt="">
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/netflix.png" alt="">
-       <img class="h-4 w-12 md:w-20 md:h-6" src="../images/apple.png" alt="">
+       <img class="h-4 w-12 md:w-12 md:h-7" src="../images/apple.png" alt="">
        <img class="w-8 md:w-10" src="../images/salesforce.png" alt="">
      </div>
      </div>
@@ -94,13 +95,11 @@
         <h4 class="text-3xl sm:text-4xl mt-10 sm:mt-16 md:mt-20 md:mb-10">Why Zeazn?</h4>
         <ul class="list-disc space-y-4 ml-0 sm:ml-10">
   <li class="text-white">
-    Discover Groundbreaking Projects: Explore innovative ideas across various industries.
-  </li>
+    Discover Groundbreaking Creator Projects: Explore and fund innovative projects<br class="hidden md:block"/> across various creative and talent based industries.  </li>
   <li class="text-white">
-    Support Visionaries: Help bring new products and technologies to life.
-  </li>
+    Support Visionaries: Help bring new creative expressions & passions to life, <br class="hidden md:block"/>and be the reason why projects move from an idea to becoming succesful realities that change the world.  </li>
   <li class="text-white">
-    Exclusive Early Access: Get in on the ground floor of the next big thing.
+    Exclusive Early Access: Get in on the ground floor of the "Next Big Thing". <br class="hidden md:block"/>It's time You create a dent in the Universe, and we'll help you get there!
   </li>
 </ul>
 
@@ -199,9 +198,10 @@ Direct Communication: Engage with creators through video updates and messages.
      <div class="text-white text-center mt-32 md:mt-20">
        <h2 class="md:my-12 text-2xl sm:text-4xl">Be a Part of Something Bigger</h2>
        <p class="mx-2 md:mx-52 text-center">
-          By joining Zeazn, you're not just supporting a project—you're fueling innovation and
-          making a lasting impact. <br class="hidden md:block"/> Don't Miss Out! <br class="hidden md:block"/>Enter your name and email below to
-          join our community and receive the latest updates. <br class="hidden md:block"/>Stay Connected
+        By joining Zeazn, you're not just supporting creative projects and Visionaries across the world—you're fueling innovation and making a lasting impact that millions of people and communities experience, all because of your support. 
+         <br class="hidden md:block"/> Don't Miss Out <br class="hidden md:block"/>
+         on this opportunity to be part of a community that champions Development, Goal Attainment, Growth & Excellence!
+         <br class="hidden md:block"/>Enter your name and email below to join our community and receive the latest updates. Stay Connected
         </p>
         <a class="text-yellow-600" href="#">Sign Me Up</a>
         <form class="md:flex justify-center gap-12 mt-5 md:mt-9 mx-2 md:mx-0">
@@ -222,7 +222,9 @@ Direct Communication: Engage with creators through video updates and messages.
       <div class="text-white">
         <h1 class="text-3xl sm:text-4xl sm:text-start md:text-start ml-12 sm:ml-0 sm:mb-8">Creators Wanted</h1>
         <p class="text-sm text-center">
-          Are you an innovator with a Groundbreaking idea? Zeazn is the perfect <br> platform to showcase your project and connect with suppertors.
+          Are you a Creator with groundbreaking innovative ideas or projects? Do you need support from your fan base to fund your next creative endeavour?
+           <br> Zeazn Invest is the perfect platform to showcase your upcoming creative ideas and connects you with your fans & supporters who come together to finance your projects.
+
         </p>
         <div class="flex gap-7 md:gap-9 mt-3 md:ml-0  sm:mt-20">
           <button class="rounded-3xl p-1 px-3  hover:underline transition-colors duration-1000 hover:bg-[#EB8D41] border border-[#EB8D41]">Launch Your Project</button>
@@ -251,9 +253,11 @@ Direct Communication: Engage with creators through video updates and messages.
     <!-- START:: About zeazn -->
      <div id="about" class="text-center text-white mt-10 sm:mt-20">
       <h1 class="text-4xl mb-2">About Zeazn</h1>
-      <p>At Zeazn, our mission is to 
-        bridge the gap between vissionary creators and enthusiatic supporters.
-         We beleive in the power of commeunity to drive <br> innovation fofrward </p>
+      <p>At Zeazn, our mission is to bridge the gap between visionary creators and enthusiatic supporters.
+We believe in the power of our communities to drive forward
+innovation and to be part of the solution to changes many societies across the world so desperately need.
+ <br> In line with this mission we are developing a portfolio of technological solutions that fill the gap for innovators between the idea curating phase, and the successful deployment of their visions & cutting-edge projects.
+ </p>
          <div class="flex justify-center mt-5">
            <img class="md:w-[100%] md:h-[450px]" src="../images/union.png" alt="">
          </div>
@@ -273,7 +277,9 @@ Direct Communication: Engage with creators through video updates and messages.
          <h1 class="mb-4">Q: How can I submit my project for crowdfunding? </h1>
          <h1 class="mb-4">A: Click on "Learn More" under "Creators Wanted" to get started. </h1>
          <h1 class="mb-4">Q: Is there a cost to join Zeazn? </h1>
-         <h1 class="mb-4">A: Signing up is completely free for supporters.</h1>
+         <h1 class="mb-4">A: Signing up is completely free for supporters.
+          and creators. Zeazn Invest only charges a commission based percentage of financial support received by Creators for backed projects.
+         </h1>
         </div>        
         <div class="mt-16 md:mt-2 ml-[0px]">
           <img class="w-12 md:w-16" src="../images/vector0.png" alt=""><br><br>
@@ -294,7 +300,12 @@ Direct Communication: Engage with creators through video updates and messages.
     <!-- END:: frequently ask question -->
 
     <h1 class="text-white text-center text-2xl sm:text-4xl pb-3 md:pb-10">Ready to Ignite Innovation?</h1>
-    <div class="flex justify-center">
+    <div 
+    class="flex justify-center"
+      data-aos="zoom-in"
+      data-aos-duration="1500"
+      data-aos-delay="500"
+    >
       <img class="md:w-[85%] md:h-[500px]" src="../images/head3.png" alt="">
     </div>
 
