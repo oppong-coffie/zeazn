@@ -1,10 +1,10 @@
 
 <template>
-  <div class="bg-slate-950">
+  <div class="bg-[#050505F2]">
     <!-- START:: Navbar for Desktop -->
-     <div class="">
-           <nav class="flex justify-between px-3 pt-2">
-      <img class="w-32 h-16" src="../images/logo1.png"/>
+     <div class="sticky top-0 bg-[#050505F2] border-b-2 shadow-2xl z-50 pb-3 border-slate-900">
+           <nav class="flex justify-between px-3 pt-2 ">
+      <img class="w-32 h-16" src="../images/logo5.png"/>
       <img @click="toggleVisibility" class="w-12 h-10 mt-5 md:hidden" src="../images/hum2.png"/>
       <div class="text-white gap-5 md:gap-9 md:flex items-center hidden">
         <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Home</a>
@@ -35,7 +35,7 @@
             <!-- END:: Navbar for mobile -->
 
 <!-- FAINT LINE UNDER THE NAV -->
-    <div class="bg-slate-800 h-1 mx-10 my-6"></div>
+    <div class="bg-slate-950 h-1 mx-10 my-6"></div>
 
 <div class="px-12">
     <!-- START:: Hero section -->
@@ -339,7 +339,19 @@ Direct Communication: Engage with creators through video updates and messages.
       <div class="mx-5 mb-3 md:mb-8 mt-3 bg-slate-800 p-[0.5px]"></div>
 
       <div class="md:flex justify-between md:justify-around">
-        <img class="w-[330px] md:w-[280px] h-[200px] md:h-[170px]" src="../images/logo3.png" alt="">
+        <div class="">
+          <div class="border border-dashed flex justify-center p-2">
+            <div class="bg-white w-16 h-16 mr-2"><img src="../images/qr.svg" alt=""></div>
+            <div class="text-sm">
+              <p> Scan to download App on the <br> Playstore and Appstore</p>
+              <p class="flex items-center">
+                <img class="w-8 h-8" src="../images/play.png" alt="">
+                <img class="w-4 h-4" src="../images/apple.png" alt="">
+              </p>
+            </div>
+          </div>
+          <div class=""><img class="w-40 sm:mt-16" src="../images/logo5.png" alt=""></div>
+        </div>
         <div class="flex flex-col items-center space-y-2 text-center md:items-start md:text-left">
         <h1 class="font-bold md:font-normal mt-5">Important Links</h1>
         <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Home</a>
