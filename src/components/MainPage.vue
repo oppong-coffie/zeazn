@@ -199,21 +199,21 @@ Direct Communication: Engage with creators through video updates and messages.
        <h2 class="md:my-12 text-2xl sm:text-4xl">Be a Part of Something Bigger</h2>
        <p class="mx-2 md:mx-52 text-center">
         By joining Zeazn, you're not just supporting creative projects and Visionaries across the world—you're fueling innovation and making a lasting impact that millions of people and communities experience, all because of your support. 
-         <br class="hidden md:block"/> Don't Miss Out <br class="hidden md:block"/>
+         <br class="hidden md:block"/> Don't Miss Out
          on this opportunity to be part of a community that champions Development, Goal Attainment, Growth & Excellence!
-         <br class="hidden md:block"/>Enter your name and email below to join our community and receive the latest updates. Stay Connected
         </p>
-        <a class="text-yellow-600" href="#">Sign Me Up</a>
-        <form class="md:flex justify-center gap-12 mt-5 md:mt-9 mx-2 md:mx-0">
+        <p class="pt-3">Enter your name and email below to join our community and receive the latest updates. Stay Connected</p>
+        <form class="md:flex justify-center gap-12 mt-5 md:mt-9 mx-2 md:mx-0 mb-4 sm:mb-8">
           <div class="border-2 rounded-3xl p-2 md:p-2 md:w-[40%] border-[#EB8D41] shadow shadow-[#EB8D41]">
             <label for="">Name:</label>
-            <input class="bg-transparent focus:outline-none sm:w-[85%]" type="text">
+            <input class="bg-transparent focus:outline-none w-[78%]" type="text">
           </div>
           <div class="border-2 rounded-3xl p-2 mt-5 md:mt-0 md:p-2 md:w-[40%] border-[#EB8D41] shadow shadow-[#EB8D41]">
             <label for="">Email:</label>
-            <input class="bg-transparent focus:outline-none  sm:w-[85%]" type="text">
+            <input class="bg-transparent focus:outline-none w-[78%]" type="text">
           </div>
         </form>
+        <a class="text-yellow-600" href="#">Sign Me Up</a>
      </div>
     <!-- END::Be a Part of Something Bigger -->
 
@@ -223,10 +223,11 @@ Direct Communication: Engage with creators through video updates and messages.
         <h1 class="text-3xl sm:text-4xl sm:text-start md:text-start ml-12 sm:ml-0 sm:mb-8">Creators Wanted</h1>
         <p class="text-sm text-center">
           Are you a Creator with groundbreaking innovative ideas or projects? Do you need support from your fan base to fund your next creative endeavour?
-           <br> Zeazn Invest is the perfect platform to showcase your upcoming creative ideas and connects you with your fans & supporters who come together to finance your projects.
-
         </p>
-        <div class="flex gap-7 md:gap-9 mt-3 md:ml-0  sm:mt-20">
+        <p class="mt-4">
+          Zeazn Invest is the perfect platform to showcase your upcoming creative ideas and connects you with your fans & supporters who come together to finance your projects.
+        </p>
+        <div class="flex gap-6 md:gap-9 mt-3 md:ml-0  sm:mt-20">
           <button class="rounded-3xl p-1 px-3  hover:underline transition-colors duration-1000 hover:bg-[#EB8D41] border border-[#EB8D41]">Launch Your Project</button>
           <button class="rounded-3xl p-1 px-2 md:px-8 bg-[#EB8D41] hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Learn more</button>
         </div>
@@ -253,11 +254,18 @@ Direct Communication: Engage with creators through video updates and messages.
     <!-- START:: About zeazn -->
      <div id="about" class="text-center text-white mt-10 sm:mt-20">
       <h1 class="text-4xl mb-2">About Zeazn</h1>
-      <p>At Zeazn, our mission is to bridge the gap between visionary creators and enthusiatic supporters.
-We believe in the power of our communities to drive forward
-innovation and to be part of the solution to changes many societies across the world so desperately need.
- <br> In line with this mission we are developing a portfolio of technological solutions that fill the gap for innovators between the idea curating phase, and the successful deployment of their visions & cutting-edge projects.
- </p>
+      <p>
+        At Zeazn, our mission is to bridge the gap between visionary creators and enthusiatic supporters.
+      </p>
+      <p class="my-4">
+        We believe in the power of our communities to drive forward
+        innovation and to be part of the solution to changes many societies across the world so desperately need.
+      </p>
+      <p>
+        In line with this mission we are developing a portfolio of technological solutions that fill the gap for innovators between the idea curating phase, and the successful deployment of their visions & cutting-edge projects.
+      </p>
+
+
          <div class="flex justify-center mt-5">
            <img class="md:w-[100%] md:h-[450px]" src="../images/union.png" alt="">
          </div>
@@ -445,3 +453,4 @@ export default {
 
 
 
+b
