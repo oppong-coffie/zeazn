@@ -320,6 +320,13 @@ Direct Communication: Engage with creators through video updates and messages.
     <!-- START::Contact us  -->
      <div id="contact" class="text-white mt-12">
        <h1 class="text-4xl text-center">Connect With Us</h1>
+       <div class="text-center sm:gap-32 text-slate-400 font-light text-sm">
+        <p><b>EMAIL:</b>  zeaznltd@gmail.com</p>
+        <p> <b>PHONE:</b> +233 53 836 2526</p>
+       </div>
+       <p class="text-center  text-slate-400 font-light">
+         <b>LOCATION:</b> 36 Sandpiper Street, Community 20 (Lashibi), Accra, Ghana.
+        </p>
        <div class="flex justify-center gap-4   md:gap-5 mt-3">
         <a class="underline text-xl md:text-2xl" href="#">Facebook</a>
         <a class="underline text-xl md:text-2xl" href="#">Instagram</a>
