@@ -59,7 +59,7 @@
             <br class="hidden md:block"/>In todays expression of unrivalled talent, that unique creator is You.
           </p>
           <div class="flex justify-end gap-2 my-4">
-            <p class="font-bold">Who is a creator? </p> <button @click="learnMore" class="font-light text-sm hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-30">Click to learn more...</button>
+            <p class="font-bold">Who is a creator? </p> <button @click="learnMore" class="font-bold text-sm hover:text-white text-[#EB8D41] hover:underline transition-colors duration-1000 z-30">Click to learn more...</button>
 
           </div>
           <div v-if="creator" class="">
@@ -336,7 +336,62 @@ Direct Communication: Engage with creators through video updates and messages.
     </div>
 
     <!-- START::Contact us  -->
-     <div id="contact" class="text-white mt-12">
+
+    <div id="contact" class="text-white my-24 flex gap-10">
+      <div class="border-2 rounded-tr rounded-bl rounded-[20%] border-[#EB8D41] border-dashed p-10">
+        <h1 class="text-5xl text-center">Connect With Us</h1>
+        <div class="text-start mt-10 space-y-5">
+          <p class="flex gap-5"><img class="w-7" src="../images/email.png" alt=""> <span>zeaznltd@gmail.com</span> </p>
+          <p class="flex gap-5"><img class="w-7" src="../images/phone2.png" alt=""> <span>+233 53 836 2526</span> </p>
+          <p class="flex gap-5"><img class="w-7 h-9" src="../images/locator.png" alt=""> <span>36 Sandpiper Street, Community 20 (Lashibi), Accra, Ghana.</span> </p>
+        </div>
+
+        <div class="flex justify-center gap-4   md:gap-5 mt-5">
+          <a class="underline text-xl" href="#">Facebook</a>
+          <a class="underline text-xl" href="#">Instagram</a>
+          <a class="underline text-xl" href="#">LinkedIn</a>
+          <a class="underline text-xl" href="#">Twitter</a>
+        </div>
+      </div>
+      <div class="justify-center flex w-[75%]">
+          <form class=" text-white md:w-[100%]">
+            <div class="flex gap-5">
+              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 mb-10 pl-5 items-center w-[100%]">
+              <label for="">Name:</label>
+              <input class="bg-transparent focus:outline-none" type="text">
+            </div>
+            <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-2 mb-10 pl-5 items-center w-[100%]">
+              <label for="">Company:</label>
+              <input class="bg-transparent focus:outline-none w-[55%]" type="text">
+            </div>
+            </div>
+
+            
+            <div class="flex gap-5">
+              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 mb-10 pl-5 items-center w-[100%]">
+              <label for="">Phone:</label>
+              <input class="bg-transparent focus:outline-none" type="text">
+            </div>
+            <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-2 mb-10 pl-5 items-center w-[100%]">
+              <label for="">Email:</label>
+              <input class="bg-transparent focus:outline-none w-[55%]" type="text">
+            </div>
+            </div>
+            
+              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 mb-10 pl-5 items-start w-[100%]">
+              <label for="">Message:</label>
+              <textarea cols="70" rows="3" class="bg-transparent focus:outline-none text-start" type="text" />
+            </div>
+          
+            <div class="text-center">
+              <button class="bg-[#EB8D41] w-[100%] rounded-3xl p-2 px-12 hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Submit</button>
+            </div>
+          </form>
+       </div>
+      
+     </div>
+
+     <!-- <div id="contact" class="text-white mt-12">
        <h1 class="text-4xl text-center">Connect With Us</h1>
        <div class="text-center sm:gap-32 text-slate-200 font-light text-sm">
         <p><b>EMAIL:</b>  zeaznltd@gmail.com</p>
@@ -374,7 +429,7 @@ Direct Communication: Engage with creators through video updates and messages.
             </div>
           </form>
        </div>
-     </div>
+     </div> -->
     <!-- END::Contact us  -->
 
     <!-- START:: footer -->
@@ -456,11 +511,12 @@ import image24 from '../images/creators (9).jpg'
 import image25 from '../images/creators (10).jpg'
 import image26 from '../images/creators (11).jpg'
 import image27 from '../images/creators (12).jpg'
+import image28 from '../images/feat.jpg'
 export default {
   data() {
     return {
       hide: true,
-      images: [image2, image3, image5, image6, image8, image10, image11, image12, image13, image14, image16, image17, image18, image19,image20, image21, image22, image23, image24, image25, image26, image27],
+      images: [image2, image3, image5, image6, image8, image10, image11, image12, image13, image14, image16, image17, image18, image19,image20, image21, image22, image23, image24, image25, image26, image27, image28],
       autoplayInterval: null, // To store the interval ID
       creator: "",
     }
