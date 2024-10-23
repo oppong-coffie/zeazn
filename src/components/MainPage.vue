@@ -53,11 +53,29 @@
         <!-- <div class="flex justify-start md:justify-end w-[110%]">
           <img class="ml-[-30px] md:ml-0 w-[100%] md:w-[90%] md:h-[350px] mt-5 md:mt-[-15px]" src="../images/emp.png" alt="">
         </div> -->
-        <h1 class="font-semibold text-2xl sm:text-3xl md:text-5xl md:text-end">Empowering Innovation Through Crowdfunding</h1>
+        <h1 class="font-semibold text-2xl sm:text-3xl md:text-5xl md:text-end">Empowering Creatives Through Crowdfunding</h1>
         <p class="md:text-end mt-3 sm:mt-5 md:mt-10">Unlocking the brilliance of Creators and their projects is at the heart of Zeazn Invest. 
            <br class="hidden md:block"/>We believe creators are the story tellers of the unfolding narratives of creativity harnessed by each generation.
             <br class="hidden md:block"/>In todays expression of unrivalled talent, that unique creator is You.
           </p>
+          <div class="flex justify-end gap-2 my-4">
+            <p class="font-bold">Who is a creator? </p> <button @click="learnMore" class="font-light text-sm hover:text-[#EB8D41] hover:underline transition-colors duration-1000 block z-30">Click to learn more...</button>
+
+          </div>
+          <div v-if="creator" class="">
+             <p>
+            The Artist working on their lastest album, the Movie Director producing a new film, the Content Creator releasing their
+             latest Tik Tok/Youtube
+             comedic skit or virtual food tour, the Fashion Influencer on Instagram, the Podcaster interviewing their standout
+              guests, the Theatre Group organising their newest breakout play, the marketer putting together the largest music
+               festivals & cultural displays, and many more.
+               </p>
+               <p class="mt-3">
+                  As long as you have a legion of fans and followers ready to support your project, Zeazn Invest is the right platform to turn your 
+                  wildest ideas and creative expressions into lucrative opportunities, all funded by the people who believe in you the most, your fans & supporters.
+              </p>
+          </div>
+         
           <p class="md:text-end mt-2 sm:mt-2 md:mt-5">Join the Innovation Movement<br class="hidden md:block"/>
           Sign up now to stay updated and be among the first to <br class="hidden md:block"/> download the Zeazn app when it launches.<br class="hidden md:block"/>
           Get Early Access <br>
@@ -432,9 +450,14 @@ export default {
       hide: true,
       images: [image2, image3, image5, image6, image8, image10, image11, image12, image13, image14],
       autoplayInterval: null, // To store the interval ID
+      creator: "",
     }
   },
   methods: {
+    // show the creator
+    learnMore(){
+      this.creator = !this.creator;
+    },
     toggleVisibility() {
       this.hide = !this.hide;  // Toggle the value of hide
     },
