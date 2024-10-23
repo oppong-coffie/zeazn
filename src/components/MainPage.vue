@@ -59,10 +59,10 @@
             <br class="hidden md:block"/>In todays expression of unrivalled talent, that unique creator is You.
           </p>
           <div class="flex justify-end gap-2 my-4">
-            <p class="font-bold">Who is a creator? </p> <button @click="learnMore" class="font-bold text-sm hover:text-white text-[#EB8D41] hover:underline transition-colors duration-1000 z-30">Click to learn more...</button>
+            <p class="font-bold">Who is a creator? </p> <button @click="learnMore" class="font-bold text-sm hover:text-white text-[#EB8D41] hover:underline transition-colors duration-1000">Click to learn more...</button>
 
           </div>
-          <div v-if="creator" class="">
+          <div v-if="creator" class="text-end">
              <p>
             The Artist working on their lastest album, the Movie Director producing a new film, the Content Creator releasing their
              latest Tik Tok/Youtube
@@ -86,14 +86,14 @@
           <button class="bg-[#EB8D41] p-1 px-3 rounded-3xl hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Get Started</button>
         </div>
         <div class="justify-end flex mt-[-20px]">
-          <img class="md:w-[550px] md:h-[130px]" src="../images//dosomething.png" alt="">
+          <img id="features" class="md:w-[550px] md:h-[130px]" src="../images//dosomething.png" alt="">
         </div>
       </div>
      </div>
     <!-- END:: Hero section -->
 
     <!-- START:: feature -->
-     <div id="features" class="text-center mt-10 sm:mt-16 md:mt-24">
+     <div class="text-center mt-10 sm:mt-16 md:mt-24">
       <h5 class="text-white mb-3 md:mb-7 text-3xl sm:text-4xl md:text-4xl">FEATURED AND SEEN</h5>
      <div class="flex justify-center gap-2 md:gap-10">
       <!-- <img class="md:w-[770px] md:h-[50px]" src="../images/media1.png" alt=""> -->
@@ -125,14 +125,14 @@
       <div class="">
         <img class="w-20 ml-4 sm:ml-24 md:ml-16 sm:mt-5" src="../images/thinking.png" alt="">
         <img class="sm:w-[500px] mt-[-50px] md:mt-[-50px]" src="../images/questiongirl.png" alt="">
-        <div class="bg-[#EB8D41] h-12 border-2 w-52 rounded-lg ml-16 sm:ml-36 mt-[-22px] z-10 relative"></div>
+        <div id="how" class="bg-[#EB8D41] h-12 border-2 w-52 rounded-lg ml-16 sm:ml-36 mt-[-22px] z-10 relative"></div>
       </div>
 
      </div>
     <!-- END::  why zeazn-->
 
     <!-- START:: how zeazn work -->
-     <div id="how" class="text-white mt-12">
+     <div class="text-white mt-12">
         <h3 class="text-center text-4xl md:mb-12">How Zeazn Works</h3>
      <ul class="">
       <li class="flex items-center md:w-[570px]">
@@ -247,7 +247,7 @@ Direct Communication: Engage with creators through video updates and messages.
         </p>
         <div class="flex gap-6 md:gap-9 mt-3 md:ml-0  sm:mt-20">
           <button class="rounded-3xl p-1 px-3  hover:underline transition-colors duration-1000 hover:bg-[#EB8D41] border border-[#EB8D41]">Launch Your Project</button>
-          <button class="rounded-3xl p-1 px-2 md:px-8 bg-[#EB8D41] hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Learn more</button>
+          <button  id="about" class="rounded-3xl p-1 px-2 md:px-8 bg-[#EB8D41] hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Learn more</button>
         </div>
       </div>
         <!-- Use images for each slide -->
@@ -270,7 +270,7 @@ Direct Communication: Engage with creators through video updates and messages.
     <!-- END:: creators wanted -->
 
     <!-- START:: About zeazn -->
-     <div id="about" class="text-center text-white mt-10 sm:mt-20">
+     <div class="text-center text-white mt-10 sm:mt-20">
       <h1 class="text-4xl mb-2">About Zeazn</h1>
       <p>
         At Zeazn, our mission is to bridge the gap between visionary creators and enthusiatic supporters.
@@ -334,57 +334,58 @@ Direct Communication: Engage with creators through video updates and messages.
     >
       <img class="md:w-[85%] md:h-[500px]" src="../images/head3.png" alt="">
     </div>
+    <h1 id="contact"></h1>
 
     <!-- START::Contact us  -->
 
-    <div id="contact" class="text-white my-24 flex gap-10">
-      <div class="border-2 rounded-tr rounded-bl rounded-[20%] border-[#EB8D41] border-dashed p-10">
-        <h1 class="text-5xl text-center">Connect With Us</h1>
-        <div class="text-start mt-10 space-y-5">
+    <div class="text-white my-24 md:flex gap-10">
+      <div class="border-2 rounded-tr rounded-bl rounded-[20%] border-[#EB8D41] border-dashed p-3 sm:p-10 mb-5">
+        <h1 class="text-3xl sm:text-5xl text-center">Connect With US</h1>
+        <div class="text-start mt-5 sm:mt-10 space-y-5">
           <p class="flex gap-5"><img class="w-7" src="../images/email.png" alt=""> <span>zeaznltd@gmail.com</span> </p>
           <p class="flex gap-5"><img class="w-7" src="../images/phone2.png" alt=""> <span>+233 53 836 2526</span> </p>
           <p class="flex gap-5"><img class="w-7 h-9" src="../images/locator.png" alt=""> <span>36 Sandpiper Street, Community 20 (Lashibi), Accra, Ghana.</span> </p>
         </div>
 
-        <div class="flex justify-center gap-4   md:gap-5 mt-5">
-          <a class="underline text-xl" href="#">Facebook</a>
-          <a class="underline text-xl" href="#">Instagram</a>
-          <a class="underline text-xl" href="#">LinkedIn</a>
-          <a class="underline text-xl" href="#">Twitter</a>
+        <div class="flex justify-center sm:justify-start md:justify-center gap-4   md:gap-5 mt-5">
+          <a href="#"> <img class="w-4 h-4" src="../images/twitter.png" alt=""></a>
+      <a href="#"> <img class="w-5 h-5" src="../images/linkedin.png" alt=""></a>
+      <a href="#"> <img class="w-5 h-5" src="../images/facebook.png" alt=""></a>
+      <a href="#"> <img class="w-5 h-5" src="../images/web.png" alt=""></a>
         </div>
       </div>
-      <div class="justify-center flex w-[75%]">
-          <form class=" text-white md:w-[100%]">
-            <div class="flex gap-5">
-              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 mb-10 pl-5 items-center w-[100%]">
+      <div class="justify-center sm:flex md:w-[75%]">
+          <form class=" text-white sm:w-[100%]">
+            <div class="sm:flex gap-5">
+              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 mb-3 sm:mb-10 pl-5 items-center w-[100%]">
               <label for="">Name:</label>
               <input class="bg-transparent focus:outline-none" type="text">
             </div>
-            <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-2 mb-10 pl-5 items-center w-[100%]">
+            <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 sm:p-5 md:p-3 mb-3 sm:mb-10 pl-5 items-center w-[100%]">
               <label for="">Company:</label>
               <input class="bg-transparent focus:outline-none w-[55%]" type="text">
             </div>
             </div>
 
             
-            <div class="flex gap-5">
-              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 mb-10 pl-5 items-center w-[100%]">
+            <div class="sm:flex gap-5">
+              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 sm:p-5 md:p-3 mb-3 sm:mb-10 pl-5 items-center w-[100%]">
               <label for="">Phone:</label>
               <input class="bg-transparent focus:outline-none" type="text">
             </div>
-            <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-2 mb-10 pl-5 items-center w-[100%]">
+            <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-2 mb-3 sm:mb-10 pl-5 items-center w-[100%]">
               <label for="">Email:</label>
               <input class="bg-transparent focus:outline-none w-[55%]" type="text">
             </div>
             </div>
             
-              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 mb-10 pl-5 items-start w-[100%]">
+              <div class="border-[#EB8D41] shadow shadow-[#EB8D41] border-2 rounded-2xl flex p-3 mb-5 sm:mb-10 pl-5 items-start w-[100%]">
               <label for="">Message:</label>
               <textarea cols="70" rows="3" class="bg-transparent focus:outline-none text-start" type="text" />
             </div>
           
             <div class="text-center">
-              <button class="bg-[#EB8D41] w-[100%] rounded-3xl p-2 px-12 hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Submit</button>
+              <button class="bg-[#EB8D41] w-[100%] rounded-3xl p-2 sm:text-4xl px-12 hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Submit</button>
             </div>
           </form>
        </div>
@@ -489,10 +490,6 @@ import { Carousel, Pagination, Slide } from 'vue3-carousel'
 // Import the carousel CSS
 import 'vue3-carousel/dist/carousel.css'
 // Import images using ES6 imports
-import image2 from '../images/blackpics (1).jpg'
-import image3 from '../images/blackpics (2).jpg'
-import image5 from '../images/blackpics (4).jpg'
-import image6 from '../images/blackpics (5).jpg'
 import image8 from '../images/step (1).jpg'
 import image10 from '../images/step (3).jpg'
 import image11 from '../images/step (4).jpg'
@@ -516,7 +513,7 @@ export default {
   data() {
     return {
       hide: true,
-      images: [image2, image3, image5, image6, image8, image10, image11, image12, image13, image14, image16, image17, image18, image19,image20, image21, image22, image23, image24, image25, image26, image27, image28],
+      images: [image8, image10, image11, image12, image13, image14, image16, image17, image18, image19,image20, image21, image22, image23, image24, image25, image26, image27, image28],
       autoplayInterval: null, // To store the interval ID
       creator: "",
     }
