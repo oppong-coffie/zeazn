@@ -391,7 +391,7 @@ Direct Communication: Engage with creators through video updates and messages.
           <h1 class="font-bold md:font-normal mt-7">Legal</h1>
           <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Terms of Use</a><br>
           <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#">Privacy Policy</a><br>
-          <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="contact">Contact Us</a>
+          <a class="hover:text-[#EB8D41] hover:underline transition-colors duration-1000" href="#contact">Contact Us</a>
         </div>
       </div>
      </div>
