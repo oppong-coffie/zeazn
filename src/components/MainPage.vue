@@ -269,7 +269,7 @@ Direct Communication: Engage with creators through video updates and messages.
          <div class="flex justify-center mt-5">
            <img class="md:w-[100%] md:h-[450px]" src="../images/union.png" alt="">
          </div>
-         <div class="flex gap-7 md:gap-7 mt-5">
+         <div class="flex gap-6 md:gap-7 mt-5">
           <button class=" hover:underline transition-colors duration-1000 hover:bg-[#EB8D41] border border-[#EB8D41] p-2 px-4 rounded-3xl md:px-5">Download the app</button>
           <button class="p-1 bg-[#EB8D41] px-5 md:px-12 rounded-3xl hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Sign Up</button>
          </div>
@@ -320,11 +320,11 @@ Direct Communication: Engage with creators through video updates and messages.
     <!-- START::Contact us  -->
      <div id="contact" class="text-white mt-12">
        <h1 class="text-4xl text-center">Connect With Us</h1>
-       <div class="text-center sm:gap-32 text-slate-400 font-light text-sm">
+       <div class="text-center sm:gap-32 text-slate-200 font-light text-sm">
         <p><b>EMAIL:</b>  zeaznltd@gmail.com</p>
         <p> <b>PHONE:</b> +233 53 836 2526</p>
        </div>
-       <p class="text-center  text-slate-400 font-light">
+       <p class="text-center  text-slate-200 font-light">
          <b>LOCATION:</b> 36 Sandpiper Street, Community 20 (Lashibi), Accra, Ghana.
         </p>
        <div class="flex justify-center gap-4   md:gap-5 mt-3">
@@ -418,15 +418,19 @@ import 'vue3-carousel/dist/carousel.css'
 // Import images using ES6 imports
 import image2 from '../images/blackpics (1).jpg'
 import image3 from '../images/blackpics (2).jpg'
-import image4 from '../images/blackpics (3).jpg'
 import image5 from '../images/blackpics (4).jpg'
 import image6 from '../images/blackpics (5).jpg'
-import image7 from '../images/slide2.png'
+import image8 from '../images/step (1).jpg'
+import image10 from '../images/step (3).jpg'
+import image11 from '../images/step (4).jpg'
+import image12 from '../images/step (5).jpg'
+import image13 from '../images/step (6).jpg'
+import image14 from '../images/step (7).jpg'
 export default {
   data() {
     return {
       hide: true,
-      images: [image2, image3, image4, image5, image6, image7],
+      images: [image2, image3, image5, image6, image8, image10, image11, image12, image13, image14],
       autoplayInterval: null, // To store the interval ID
     }
   },
