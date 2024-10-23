@@ -46,7 +46,7 @@
       data-aos-duration="1500"
       data-aos-delay="500"
       >
-        <img class="md:w-[85%] sm:w-[85%] md:h-[524px] -z-10" src="../images/hero1.png" alt="">
+        <img class="md:w-[100%] sm:w-[100%] md:h-[524px] -z-10" src="../images/creators (10).jpg" alt="">
       </div>
 
       <div class="md:w-[50%] md:mt-[-20px] sm:mt-[-20px]">
@@ -444,11 +444,23 @@ import image11 from '../images/step (4).jpg'
 import image12 from '../images/step (5).jpg'
 import image13 from '../images/step (6).jpg'
 import image14 from '../images/step (7).jpg'
+import image16 from '../images/creators (1).jpg'
+import image17 from '../images/creators (2).jpg'
+import image18 from '../images/creators (3).jpg'
+import image19 from '../images/creators (4).jpg'
+import image20 from '../images/creators (5).jpg'
+import image21 from '../images/creators (6).jpg'
+import image22 from '../images/creators (7).jpg'
+import image23 from '../images/creators (8).jpg'
+import image24 from '../images/creators (9).jpg'
+import image25 from '../images/creators (10).jpg'
+import image26 from '../images/creators (11).jpg'
+import image27 from '../images/creators (12).jpg'
 export default {
   data() {
     return {
       hide: true,
-      images: [image2, image3, image5, image6, image8, image10, image11, image12, image13, image14],
+      images: [image2, image3, image5, image6, image8, image10, image11, image12, image13, image14, image16, image17, image18, image19,image20, image21, image22, image23, image24, image25, image26, image27],
       autoplayInterval: null, // To store the interval ID
       creator: "",
     }
