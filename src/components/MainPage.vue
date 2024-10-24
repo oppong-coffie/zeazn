@@ -102,7 +102,7 @@
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/ebay.png" alt="">
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/paypal.png" alt="">
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/netflix.png" alt="">
-       <img class="h-4 w-12 md:w-12 md:h-7" src="../images/Apple.png" alt="">
+       <img class="h-4 w-12 md:w-12 md:h-7" src="../images/apple.png" alt="">
        <img class="w-8 md:w-10" src="../images/salesforce.png" alt="">
      </div>
      </div>
@@ -451,6 +451,7 @@ Direct Communication: Engage with creators through video updates and messages.
               <p> Scan to download App on the <br> Playstore and Appstore</p>
               <p class="flex items-center">
                 <img class="w-8 h-8" src="../images/play.png" alt="">
+                <img class="w-4 h-4" src="../images/apple.png" alt="">
               </p>
             </div>
           </div>
