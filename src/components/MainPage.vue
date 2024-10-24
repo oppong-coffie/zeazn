@@ -37,9 +37,9 @@
 <!-- FAINT LINE UNDER THE NAV -->
     <div class="bg-slate-950 h-1 mx-10 my-6"></div>
 
-<div class="px-12">
+<div class="px-2 sm:px-12">
     <!-- START:: Hero section -->
-     <div class="text-white md:flex sm:flex">
+     <div class="text-white md:flex">
       <div 
       class="md:w-[50%]"
       data-aos="zoom-in"
@@ -49,14 +49,14 @@
         <img class="md:w-[100%] sm:w-[100%] md:h-[524px] -z-10" src="../images/creators (10).jpg" alt="">
       </div>
 
-      <div class="md:w-[50%] md:mt-[-20px] sm:mt-[-20px]">
+      <div class="md:w-[50%] md:mt-[-20px] sm:mt-[20px]">
         <!-- <div class="flex justify-start md:justify-end w-[110%]">
           <img class="ml-[-30px] md:ml-0 w-[100%] md:w-[90%] md:h-[350px] mt-5 md:mt-[-15px]" src="../images/emp.png" alt="">
         </div> -->
         <h1 class="font-semibold text-2xl sm:text-3xl md:text-5xl md:text-end">Empowering Creatives Through Crowdfunding</h1>
         <p class="md:text-end mt-3 sm:mt-5 md:mt-10">Unlocking the brilliance of Creators and their projects is at the heart of Zeazn Invest. 
            <br class="hidden md:block"/>We believe creators are the story tellers of the unfolding narratives of creativity harnessed by each generation.
-            <br class="hidden md:block"/>In todays expression of unrivalled talent, that unique creator is You.
+            <br class="hidden md:block"/>In today's expression of unrivalled talent, that unique creator is You.
           </p>
           <div class="flex justify-end gap-2 my-4">
             <p class="font-bold">Who is a creator? </p> <button @click="learnMore" class="font-bold text-sm hover:text-white text-[#EB8D41] hover:underline transition-colors duration-1000">Click to learn more...</button>
@@ -76,7 +76,7 @@
               </p>
           </div>
          
-          <p class="md:text-end mt-2 sm:mt-2 md:mt-5">Join the Innovation Movement<br class="hidden md:block"/>
+          <p class="md:text-end mt-2 sm:mt-2 md:mt-5">Join the Innovation Movement.<br class="hidden md:block"/>
           Sign up now to stay updated and be among the first to <br class="hidden md:block"/> download the Zeazn app when it launches.<br class="hidden md:block"/>
           Get Early Access <br>
           Stay informed about our launch and special offers.
@@ -111,7 +111,7 @@
      <div class="md:flex justify-between">
       <div class="text-white">
         <h4 class="text-3xl sm:text-4xl mt-10 sm:mt-16 md:mt-20 md:mb-10">Why Zeazn?</h4>
-        <ul class="list-disc space-y-4 ml-0 sm:ml-10">
+        <ul class="list-disc space-y-4 ml-4 sm:ml-10">
   <li class="text-white">
     Discover Groundbreaking Creator Projects: Explore and fund innovative projects<br class="hidden md:block"/> across various creative and talent based industries.  </li>
   <li class="text-white">
@@ -197,7 +197,7 @@ Secure Transactions: Feel confident with our robust security measures.
 
 
 Direct Communication: Engage with creators through video updates and messages.
-.
+
       </p>        
     </div>
   </div>
@@ -214,7 +214,7 @@ Direct Communication: Engage with creators through video updates and messages.
 
     <!-- START::Be a Part of Something Bigger -->
      <div class="text-white text-center mt-32 md:mt-20">
-       <h2 class="md:my-12 text-2xl sm:text-4xl">Be a Part of Something Bigger</h2>
+       <h2 class="md:my-12 text-2xl sm:text-4xl mb-3">Be a Part of Something Bigger</h2>
        <p class="mx-2 md:mx-52 text-center">
         By joining Zeazn, you're not just supporting creative projects and Visionaries across the world—you're fueling innovation and making a lasting impact that millions of people and communities experience, all because of your support. 
          <br class="hidden md:block"/> Don't Miss Out
@@ -222,23 +222,25 @@ Direct Communication: Engage with creators through video updates and messages.
         </p>
         <p class="pt-3">Enter your name and email below to join our community and receive the latest updates. Stay Connected</p>
         <form class="md:flex justify-center gap-12 mt-5 md:mt-9 mx-2 md:mx-0 mb-4 sm:mb-8">
-          <div class="border-2 rounded-3xl p-2 md:p-2 md:w-[40%] border-[#EB8D41] shadow shadow-[#EB8D41]">
+          <div class="flex border-2 rounded-3xl p-2 md:p-2 md:w-[40%] border-[#EB8D41] shadow shadow-[#EB8D41]">
             <label for="">Name:</label>
             <input class="bg-transparent focus:outline-none w-[78%]" type="text">
           </div>
-          <div class="border-2 rounded-3xl p-2 mt-5 md:mt-0 md:p-2 md:w-[40%] border-[#EB8D41] shadow shadow-[#EB8D41]">
+          <div class="flex border-2 rounded-3xl p-2 mt-5 md:mt-0 md:p-2 md:w-[40%] border-[#EB8D41] shadow shadow-[#EB8D41]">
             <label for="">Email:</label>
             <input class="bg-transparent focus:outline-none w-[78%]" type="text">
           </div>
         </form>
-        <a class="text-yellow-600" href="#">Sign Me Up</a>
-     </div>
+        <div class="text-center">
+              <button class="bg-[#EB8D41] w-[100%] md:w-72 rounded-3xl p-2 md:p-1 sm:text-4xl md:text-xl px-12 hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Sign me up</button>
+            </div>
+            </div>
     <!-- END::Be a Part of Something Bigger -->
 
     <!-- START:: creators wanted -->
      <div class="grid sm:grid-cols-2 justify-between mt-8 sm:mt-20">
       <div class="text-white">
-        <h1 class="text-3xl sm:text-4xl sm:text-start md:text-start ml-12 sm:ml-0 sm:mb-8">Creators Wanted</h1>
+        <h1 class="text-3xl sm:text-4xl sm:text-start md:text-start ml-12 sm:ml-0 mb-3 sm:mb-8">Creators Wanted</h1>
         <p class="text-sm text-center">
           Are you a Creator with groundbreaking innovative ideas or projects? Do you need support from your fan base to fund your next creative endeavour?
         </p>
@@ -277,17 +279,17 @@ Direct Communication: Engage with creators through video updates and messages.
       </p>
       <p class="my-4">
         We believe in the power of our communities to drive forward
-        innovation and to be part of the solution to changes many societies across the world so desperately need.
+        innovation and to be part of the solution to the changes many societies across the world so desperately need.
       </p>
       <p>
-        In line with this mission we are developing a portfolio of technological solutions that fill the gap for innovators between the idea curating phase, and the successful deployment of their visions & cutting-edge projects.
+        In line with this mission, we are developing a portfolio of technological solutions that fill the gap for innovators between the idea curating phase, and the successful deployment of their visions & cutting-edge projects.
       </p>
 
 
          <div class="flex justify-center mt-5">
            <img class="md:w-[100%] md:h-[450px]" src="../images/union.png" alt="">
          </div>
-         <div class="flex gap-6 md:gap-7 mt-5">
+         <div class="flex gap-5 md:gap-7 mt-5">
           <button class=" hover:underline transition-colors duration-1000 hover:bg-[#EB8D41] border border-[#EB8D41] p-2 px-4 rounded-3xl md:px-5">Download the app</button>
           <button class="p-1 bg-[#EB8D41] px-5 md:px-12 rounded-3xl hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Sign Up</button>
          </div>
@@ -304,7 +306,7 @@ Direct Communication: Engage with creators through video updates and messages.
          <h1 class="mb-4">A: Click on "Learn More" under "Creators Wanted" to get started. </h1>
          <h1 class="mb-4">Q: Is there a cost to join Zeazn? </h1>
          <h1 class="mb-4">A: Signing up is completely free for supporters
-          and creators, Zeazn Invest only charges a commission based percentage of financial support received by Creators for backed projects.
+          and creators. Zeazn Invest only levies a commission based percentage on financial support received by Creators for backed projects.
          </h1>
         </div>        
         <div class="mt-16 md:mt-2 ml-[0px]">
@@ -438,9 +440,10 @@ Direct Communication: Engage with creators through video updates and messages.
       <img class="md:w-[600px]" src="../images/logo2.png" alt="">
       <div class="mx-5 mb-3 md:mb-8 mt-3 bg-slate-800 p-[0.5px]"></div>
 
-      <div class="md:flex justify-between md:justify-around">
+      <!-- THE SCAN SECTON -->
+      <div class="sm:flex justify-between md:justify-around">
         <div class="">
-          <div class="border border-dashed flex justify-center p-2">
+          <div class="border border-dashed flex justify-around sm:justify-center p-2">
             <div class="bg-white w-16 h-16 mr-2"><img src="../images/qr.svg" alt=""></div>
             <div class="text-sm">
               <p> Scan to download App on the <br> Playstore and Appstore</p>
@@ -530,7 +533,7 @@ export default {
       // Manually advance the slides every 5 seconds
       this.autoplayInterval = setInterval(() => {
         this.$refs.carousel.next(); // Move to the next slide
-      }, 2000); // 5000 ms = 5 seconds
+      }, 5000); // 5000 ms = 5 seconds
     },
   },
   components: {
