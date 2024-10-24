@@ -254,12 +254,12 @@ Direct Communication: Engage with creators through video updates and messages.
       </div>
         <!-- Use images for each slide -->
       <div class="sm:mt-[-50px]">
-        <div class="border-[#eb8e415c] rounded-xl h-72 border-2 mt-8">
-          <div class = "border-[#EB8D41] bg-slate-950 border-2 rounded-lg w-[100%] h-72 pt-2 pl-2 ml-2 mt-2 mb-[-10px] mr-[-20px]">
+        <div class="border-[#eb8e415c] rounded-xl h-64 sm:h-72 border-2 mt-8">
+          <div class = "border-[#EB8D41] bg-slate-950 border-2 rounded-lg w-[100%] h-64 sm:h-72 pt-2 pl-2 ml-2 mt-2 mb-[-10px] mr-[-20px]">
             <div class="mr-[-10px]">
               <Carousel class="h-[100%]" ref="carousel" :wrap-around="true">
               <Slide class="h-[100%]" v-for="(image, index) in images" :key="index">
-                  <img  :src="image" :alt="'Slide ' + (index + 1)" class="w-[100%] h-72 rounded-xl" />
+                  <img  :src="image" :alt="'Slide ' + (index + 1)" class="w-[100%] h-64 sm:h-72 rounded-xl" />
               </Slide>
             </Carousel>
             </div>
@@ -287,7 +287,7 @@ Direct Communication: Engage with creators through video updates and messages.
 
 
          <div class="flex justify-center mt-5">
-           <img class="md:w-[100%] md:h-[450px]" src="../images/union.png" alt="">
+           <img class="md:w-[80%] md:h-[440px] rounded shadow-2xl" src="../images/last (3).jpg" alt="">
          </div>
          <div class="flex gap-5 md:gap-7 mt-5">
           <button class=" hover:underline transition-colors duration-1000 hover:bg-[#EB8D41] border border-[#EB8D41] p-2 px-4 rounded-3xl md:px-5">Download the app</button>
@@ -508,15 +508,18 @@ import image21 from '../images/creators (6).jpg'
 import image22 from '../images/creators (7).jpg'
 import image23 from '../images/creators (8).jpg'
 import image24 from '../images/creators (9).jpg'
-import image25 from '../images/creators (10).jpg'
 import image26 from '../images/creators (11).jpg'
 import image27 from '../images/creators (12).jpg'
 import image28 from '../images/feat.jpg'
+import image29 from '../images/last (1).jpg'
+import image30 from '../images/last (2).jpg'
+import image31 from '../images/last (5).jpg'
+import image32 from '../images/last (4).jpg'
 export default {
   data() {
     return {
       hide: true,
-      images: [image8, image10, image11, image12, image13, image14, image16, image17, image18, image19,image20, image21, image22, image23, image24, image25, image26, image27, image28],
+      images: [image8, image10, image11, image12, image13, image14, image16, image17, image18, image19,image20, image21, image22, image23, image24, image26, image27, image28, image29, image30, image31, image32],
       autoplayInterval: null, // To store the interval ID
       creator: "",
     }
@@ -533,7 +536,7 @@ export default {
       // Manually advance the slides every 5 seconds
       this.autoplayInterval = setInterval(() => {
         this.$refs.carousel.next(); // Move to the next slide
-      }, 5000); // 5000 ms = 5 seconds
+      }, 1000); // 5000 ms = 5 seconds
     },
   },
   components: {
@@ -551,8 +554,3 @@ export default {
   },
 }
 </script>
-
-
-
-
-b
