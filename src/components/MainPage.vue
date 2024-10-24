@@ -54,12 +54,13 @@
           <img class="ml-[-30px] md:ml-0 w-[100%] md:w-[90%] md:h-[350px] mt-5 md:mt-[-15px]" src="../images/emp.png" alt="">
         </div> -->
         <h1 class="font-semibold text-2xl sm:text-3xl md:text-5xl md:text-end">Empowering Creatives Through Crowdfunding</h1>
-        <p class="md:text-end mt-3 sm:mt-5 md:mt-10">Unlocking the brilliance of Creators and their projects is at the heart of Zeazn Invest. 
+        <p class="md:text-end mt-3 sm:mt-5 md:mt-10">Unlocking the brilliance of Creators and their projects is at the heart
+           of Zeazn Invest. 
            <br class="hidden md:block"/>We believe creators are the story tellers of the unfolding narratives of creativity harnessed by each generation.
             <br class="hidden md:block"/>In today's expression of unrivalled talent, that unique creator is You.
           </p>
           <div class="flex justify-end gap-2 my-4">
-            <p class="font-bold">Who is a creator? </p> <button @click="learnMore" class="font-bold text-sm hover:text-white text-[#EB8D41] hover:underline transition-colors duration-1000">Click to learn more...</button>
+            <p class="font-bold">Who is a Creator? </p> <button @click="learnMore" class="font-bold text-sm hover:text-white text-[#EB8D41] hover:underline transition-colors duration-1000">Click to learn more...</button>
 
           </div>
           <div v-if="creator" class="text-end">
@@ -71,13 +72,13 @@
                festivals & cultural displays, and many more.
                </p>
                <p class="mt-3">
-                  As long as you have a legion of fans and followers ready to support your project, Zeazn Invest is the right platform to turn your 
+                  As long as you have a legion of fans and followers ready to support your project, Zeazn Invest Invest is the right platform to turn your 
                   wildest ideas and creative expressions into lucrative opportunities, all funded by the people who believe in you the most, your fans & supporters.
               </p>
           </div>
          
           <p class="md:text-end mt-2 sm:mt-2 md:mt-5">Join the Innovation Movement.<br class="hidden md:block"/>
-          Sign up now to stay updated and be among the first to <br class="hidden md:block"/> download the Zeazn app when it launches.<br class="hidden md:block"/>
+          Sign up now to stay updated and be among the first to <br class="hidden md:block"/> download the Zeazn Invest App when it launches.<br class="hidden md:block"/>
           Get Early Access <br>
           Stay informed about our launch and special offers.
         </p>
@@ -101,16 +102,16 @@
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/ebay.png" alt="">
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/paypal.png" alt="">
        <img class="h-4 w-12 md:w-20 md:h-6" src="../images/netflix.png" alt="">
-       <img class="h-4 w-12 md:w-12 md:h-7" src="../images/apple.png" alt="">
+       <img class="h-4 w-12 md:w-12 md:h-7" src="../images/Apple.png" alt="">
        <img class="w-8 md:w-10" src="../images/salesforce.png" alt="">
      </div>
      </div>
     <!-- END:: feature -->
 
-    <!-- START:: Why zeazn -->
+    <!-- START:: Why Zeazn Invest -->
      <div class="md:flex justify-between">
       <div class="text-white">
-        <h4 class="text-3xl sm:text-4xl mt-10 sm:mt-16 md:mt-20 md:mb-10">Why Zeazn?</h4>
+        <h4 class="text-3xl sm:text-4xl mt-10 sm:mt-16 md:mt-20 mb-3 md:mb-10">Why Zeazn Invest?</h4>
         <ul class="list-disc space-y-4 ml-4 sm:ml-10">
   <li class="text-white">
     Discover Groundbreaking Creator Projects: Explore and fund innovative projects<br class="hidden md:block"/> across various creative and talent based industries.  </li>
@@ -129,11 +130,11 @@
       </div>
 
      </div>
-    <!-- END::  why zeazn-->
+    <!-- END::  why Zeazn Invest-->
 
-    <!-- START:: how zeazn work -->
+    <!-- START:: how Zeazn Invest work -->
      <div class="text-white mt-12">
-        <h3 class="text-center text-4xl md:mb-12">How Zeazn Works</h3>
+        <h3 class="text-center text-4xl md:mb-12">How Zeazn Invest Works</h3>
      <ul class="">
       <li class="flex items-center md:w-[570px]">
         <img class="w-7 md:w-10 h-7 md:h-10" src="../images/g2.png" alt="">
@@ -152,11 +153,11 @@
       </li>
      </ul>
      </div>
-    <!-- END:: how zeazn work -->
+    <!-- END:: how Zeazn Invest work -->
 
    <!-- START:: features you will love -->
    <div class="flex flex-col justify-center col-span-1 text-white">
-  <h2 class="text-3xl sm:text-4xl md:text-5xl text-center my-5 sm:my-8 md:my-10">Features You'll Love</h2>
+  <h2 class="text-3xl sm:text-4xl md:text-5xl text-center my-5 sm:my-8 md:my-10 mt-12">Features You'll Love</h2>
   
   <div class="sm:flex sm:gap-10 md:gap-16 justify-center sm:px-10 md:px-32 space-y-5 sm:space-y-0">
     <!-- Feature 1 -->
@@ -216,7 +217,7 @@ Direct Communication: Engage with creators through video updates and messages.
      <div class="text-white text-center mt-32 md:mt-20">
        <h2 class="md:my-12 text-2xl sm:text-4xl mb-3">Be a Part of Something Bigger</h2>
        <p class="mx-2 md:mx-52 text-center">
-        By joining Zeazn, you're not just supporting creative projects and Visionaries across the world—you're fueling innovation and making a lasting impact that millions of people and communities experience, all because of your support. 
+        By joining Zeazn Invest, you're not just supporting creative projects and Visionaries across the world—you're fueling innovation and making a lasting impact that millions of people and communities experience, all because of your support. 
          <br class="hidden md:block"/> Don't Miss Out
          on this opportunity to be part of a community that champions Development, Goal Attainment, Growth & Excellence!
         </p>
@@ -238,7 +239,7 @@ Direct Communication: Engage with creators through video updates and messages.
     <!-- END::Be a Part of Something Bigger -->
 
     <!-- START:: creators wanted -->
-     <div class="grid sm:grid-cols-2 justify-between mt-8 sm:mt-20">
+     <div class="grid sm:grid-cols-2 justify-between mt-12 sm:mt-20">
       <div class="text-white">
         <h1 class="text-3xl sm:text-4xl sm:text-start md:text-start ml-12 sm:ml-0 mb-3 sm:mb-8">Creators Wanted</h1>
         <p class="text-sm text-center">
@@ -271,8 +272,8 @@ Direct Communication: Engage with creators through video updates and messages.
   </div>
     <!-- END:: creators wanted -->
 
-    <!-- START:: About zeazn -->
-     <div class="text-center text-white mt-10 sm:mt-20">
+    <!-- START:: About Zeazn Invest -->
+     <div class="text-center text-white mt-16 sm:mt-20">
       <h1 class="text-4xl mb-2">About Zeazn</h1>
       <p>
         At Zeazn, our mission is to bridge the gap between visionary creators and enthusiatic supporters.
@@ -282,7 +283,8 @@ Direct Communication: Engage with creators through video updates and messages.
         innovation and to be part of the solution to the changes many societies across the world so desperately need.
       </p>
       <p>
-        In line with this mission, we are developing a portfolio of technological solutions that fill the gap for innovators between the idea curating phase, and the successful deployment of their visions & cutting-edge projects.
+        In line with this mission, we are developing a portfolio of technological solutions that fill the gap for innovators
+         between the idea curating phase, and the successful deployment of their visions & cutting-edge projects.
       </p>
 
 
@@ -290,21 +292,21 @@ Direct Communication: Engage with creators through video updates and messages.
            <img class="md:w-[80%] md:h-[440px] rounded shadow-2xl" src="../images/last (3).jpg" alt="">
          </div>
          <div class="flex gap-5 md:gap-7 mt-5">
-          <button class=" hover:underline transition-colors duration-1000 hover:bg-[#EB8D41] border border-[#EB8D41] p-2 px-4 rounded-3xl md:px-5">Download the app</button>
+          <button class=" hover:underline transition-colors duration-1000 hover:bg-[#EB8D41] border border-[#EB8D41] p-2 px-4 rounded-3xl md:px-5">Download the App</button>
           <button class="p-1 bg-[#EB8D41] px-5 md:px-12 rounded-3xl hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Sign Up</button>
          </div>
      </div>
-    <!-- END:: About zeazn -->
+    <!-- END:: About Zeazn Invest -->
 
     <!-- START:: frequently ask question -->
-    <h1 class="text-white text-xl font-semibold md:font-normal md:text-4xl mt-10 mb-2 md:ml-60">Frequently Asked Questions</h1>
+    <h1 class="text-white text-xl font-semibold md:font-normal md:text-4xl mt-12 mb-2 md:ml-60">Frequently Asked Questions</h1>
      <div class="text-white flex md:justify-center mb-10">
       <div class="">
-         <h1 class="mb-4">Q: When will the Zeazn app be available? </h1>
+         <h1 class="mb-4">Q: When will the Zeazn Invest App be available? </h1>
          <h1 class="mb-4">A: We're launching soon! Sign up to be the first to know. </h1>
          <h1 class="mb-4">Q: How can I submit my project for crowdfunding? </h1>
          <h1 class="mb-4">A: Click on "Learn More" under "Creators Wanted" to get started. </h1>
-         <h1 class="mb-4">Q: Is there a cost to join Zeazn? </h1>
+         <h1 class="mb-4">Q: Is there a cost to join Zeazn Invest? </h1>
          <h1 class="mb-4">A: Signing up is completely free for supporters
           and creators. Zeazn Invest only levies a commission based percentage on financial support received by Creators for backed projects.
          </h1>
@@ -316,11 +318,11 @@ Direct Communication: Engage with creators through video updates and messages.
       <!-- <h1 class="text-3xl">Frequently Asked Questions</h1> -->
       <!-- <div class="flex"> -->
         <!-- <div class="">
-        Q: When will the Zeazn app be available? <br>
+        Q: When will the Zeazn Invest App be available? <br>
         A: We're launching soon! Sign up to be the first to know. <br>
         Q: How can I submit my project for crowdfunding? <br>
         A: Click on "Learn More" under "Creators Wanted" to get started. <br>
-        Q: Is there a cost to join Zeazn? <br>
+        Q: Is there a cost to join Zeazn Invest? <br>
         A: Signing up is completely free for supporters.
         </div> -->
       <!-- </div> -->
@@ -344,7 +346,7 @@ Direct Communication: Engage with creators through video updates and messages.
       <div class="border-2 rounded-tr rounded-bl rounded-[20%] border-[#EB8D41] border-dashed p-3 sm:p-10 mb-5">
         <h1 class="text-3xl sm:text-5xl text-center">Connect With US</h1>
         <div class="text-start mt-5 sm:mt-10 space-y-5">
-          <p class="flex gap-5"><img class="w-7" src="../images/email.png" alt=""> <span>zeaznltd@gmail.com</span> </p>
+          <p class="flex gap-5"><img class="w-7" src="../images/email.png" alt=""> <span>Zeazn Investltd@gmail.com</span> </p>
           <p class="flex gap-5"><img class="w-7" src="../images/phone2.png" alt=""> <span>+233 53 836 2526</span> </p>
           <p class="flex gap-5"><img class="w-7 h-9" src="../images/locator.png" alt=""> <span>36 Sandpiper Street, Community 20 (Lashibi), Accra, Ghana.</span> </p>
         </div>
@@ -397,7 +399,7 @@ Direct Communication: Engage with creators through video updates and messages.
      <!-- <div id="contact" class="text-white mt-12">
        <h1 class="text-4xl text-center">Connect With Us</h1>
        <div class="text-center sm:gap-32 text-slate-200 font-light text-sm">
-        <p><b>EMAIL:</b>  zeaznltd@gmail.com</p>
+        <p><b>EMAIL:</b>  Zeazn Investltd@gmail.com</p>
         <p> <b>PHONE:</b> +233 53 836 2526</p>
        </div>
        <p class="text-center  text-slate-200 font-light">
@@ -449,7 +451,7 @@ Direct Communication: Engage with creators through video updates and messages.
               <p> Scan to download App on the <br> Playstore and Appstore</p>
               <p class="flex items-center">
                 <img class="w-8 h-8" src="../images/play.png" alt="">
-                <img class="w-4 h-4" src="../images/apple.png" alt="">
+                <img class="w-4 h-4" src="../images/Apple.png" alt="">
               </p>
             </div>
           </div>
