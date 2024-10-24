@@ -346,7 +346,7 @@ Direct Communication: Engage with creators through video updates and messages.
       <div class="border-2 rounded-tr rounded-bl rounded-[20%] border-[#EB8D41] border-dashed p-3 sm:p-10 mb-5">
         <h1 class="text-3xl sm:text-5xl text-center">Connect With US</h1>
         <div class="text-start mt-5 sm:mt-10 space-y-5">
-          <p class="flex gap-5"><img class="w-7" src="../images/email.png" alt=""> <span>Zeazn Investltd@gmail.com</span> </p>
+          <p class="flex gap-5"><img class="w-7" src="../images/email.png" alt=""> <span>zeaznltd@gmail.com</span> </p>
           <p class="flex gap-5"><img class="w-7" src="../images/phone2.png" alt=""> <span>+233 53 836 2526</span> </p>
           <p class="flex gap-5"><img class="w-7 h-9" src="../images/locator.png" alt=""> <span>36 Sandpiper Street, Community 20 (Lashibi), Accra, Ghana.</span> </p>
         </div>
