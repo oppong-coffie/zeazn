@@ -37,7 +37,7 @@
 <!-- FAINT LINE UNDER THE NAV -->
     <div class="bg-slate-950 h-1 mx-10 my-6"></div>
 
-<div class="px-2 sm:px-12">
+<div class="px-3 sm:px-12 mr-[2px]">
     <!-- START:: Hero section -->
      <div class="text-white md:flex">
       <div 
@@ -312,8 +312,8 @@ Direct Communication: Engage with creators through video updates and messages.
          </h1>
         </div>        
         <div class="mt-16 md:mt-2 ml-[0px]">
-          <img class="w-12 md:w-16" src="../images/vector0.png" alt=""><br><br>
-          <img class="w-10 md:w-12 ml-12 md:ml-24" src="../images/Vector.png" alt="">
+          <img class="w-12 md:w-16 ml-[-32px]" src="../images/vector0.png" alt=""><br><br>
+          <img class="w-10 md:w-12 ml-[-32px] md:ml-24" src="../images/Vector.png" alt="">
         </div>
       <!-- <h1 class="text-3xl">Frequently Asked Questions</h1> -->
       <!-- <div class="flex"> -->
