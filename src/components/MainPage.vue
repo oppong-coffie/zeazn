@@ -303,8 +303,8 @@ Direct Communication: Engage with creators through video updates and messages.
          <h1 class="mb-4">Q: How can I submit my project for crowdfunding? </h1>
          <h1 class="mb-4">A: Click on "Learn More" under "Creators Wanted" to get started. </h1>
          <h1 class="mb-4">Q: Is there a cost to join Zeazn? </h1>
-         <h1 class="mb-4">A: Signing up is completely free for supporters.
-          and creators. Zeazn Invest only charges a commission based percentage of financial support received by Creators for backed projects.
+         <h1 class="mb-4">A: Signing up is completely free for supporters
+          and creators, Zeazn Invest only charges a commission based percentage of financial support received by Creators for backed projects.
          </h1>
         </div>        
         <div class="mt-16 md:mt-2 ml-[0px]">
