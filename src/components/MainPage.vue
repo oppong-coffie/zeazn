@@ -451,7 +451,6 @@ Direct Communication: Engage with creators through video updates and messages.
               <p> Scan to download App on the <br> Playstore and Appstore</p>
               <p class="flex items-center">
                 <img class="w-8 h-8" src="../images/play.png" alt="">
-                <!-- <img class="w-4 h-4" src="../images/apple.png" alt=""> -->
               </p>
             </div>
           </div>
