@@ -735,7 +735,7 @@ export default {
         access_key: 'c4220f18-088b-421f-aaf8-315a761bf02e'
       },
       formData2: {
-        MESSAGE: 'I want to be part of Zean Invest and receive latest updates',
+        MESSAGE: 'NEW SUBSCRIBTION',
         access_key: 'c4220f18-088b-421f-aaf8-315a761bf02e',
         FULLNAME: '',
         EMAIL: '',
