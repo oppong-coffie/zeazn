@@ -372,14 +372,15 @@ Secure Transactions: Feel confident with our robust security measures.
          on this opportunity to be part of a community that champions Development, Goal Attainment, Growth & Excellence!
         </p>
         <p class="pt-3">Enter your name and email below to join our community and receive the latest updates. Stay Connected</p>
-        <form class="md:flex justify-center gap-12 mt-5 md:mt-9 mx-2 md:mx-0 mb-4 sm:mb-8">
-          <div 
+        <form class="" @submit.prevent="signMeup">
+          <div class="md:flex justify-center gap-12 mt-5 md:mt-9 mx-2 md:mx-0 mb-4 sm:mb-8">
+            <div 
           data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="0"
           class="flex border-2 rounded-3xl p-2 md:p-2 md:w-[40%] border-[#EB8D41] shadow shadow-[#EB8D41]">
             <label for="">Name:</label>
-            <input class="bg-transparent focus:outline-none w-[78%]" type="text">
+            <input class="bg-transparent focus:outline-none w-[78%]" type="text"  v-model="formData2.FULLNAME">
           </div>
           <div 
           data-aos="fade-right"
@@ -387,16 +388,21 @@ Secure Transactions: Feel confident with our robust security measures.
             data-aos-delay="0"
           class="flex border-2 rounded-3xl p-2 mt-5 md:mt-0 md:p-2 md:w-[40%] border-[#EB8D41] shadow shadow-[#EB8D41]">
             <label for="">Email:</label>
-            <input class="bg-transparent focus:outline-none w-[78%]" type="text">
+            <input class="bg-transparent focus:outline-none w-[78%]" type="text"  v-model="formData2.EMAIL">
           </div>
+          </div>
+        
+          <div class="text-center">
+                <button 
+                type="submit"
+                data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+                class="bg-[#EB8D41] w-[100%] md:w-72 rounded-3xl p-2 md:p-1 sm:text-4xl md:text-xl px-12 hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Sign me up</button>
+              </div>
         </form>
-        <div class="text-center">
-              <button 
-              data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="500"
-              class="bg-[#EB8D41] w-[100%] md:w-72 rounded-3xl p-2 md:p-1 sm:text-4xl md:text-xl px-12 hover:text-[#EB8D41] hover:underline transition-colors duration-1000 hover:bg-black hover:border-white border-2 border-[#EB8D41]">Sign me up</button>
-            </div>
+            <p v-if="submissionStatus2" class="text-center text-[#EB8D41]">{{ submissionStatus2 }}</p>
+
             </div>
     <!-- END::Be a Part of Something Bigger -->
 
@@ -728,7 +734,14 @@ export default {
         message: '',
         access_key: 'c4220f18-088b-421f-aaf8-315a761bf02e'
       },
+      formData2: {
+        MESSAGE: 'I want to be part of Zean Invest and receive latest updates',
+        access_key: 'c4220f18-088b-421f-aaf8-315a761bf02e',
+        FULLNAME: '',
+        EMAIL: '',
+      },
       submissionStatus: '',
+      submissionStatus2: '',
     }
   },
   methods: {
@@ -763,6 +776,36 @@ export default {
         phone: '',
         email: '',
         message: '',
+      };
+    },
+    //
+    async signMeup() {
+      console.log('submitted')
+      try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(this.formData2),
+        });
+        const resultJson = await response.json();
+        this.submissionStatus2 =
+          response.status === 200
+            ? "Form submitted successfully"
+            : resultJson.message;
+
+        this.resetForm2();
+        
+        // Reset form data after successful submission
+      } catch (error) {
+        console.log(error);
+        this.$refs.result.innerHTML = "Something went wrong!";      }
+    },
+    resetForm2() {
+      this.formData2 = {
+        name2: '',
+        email2: '',
       };
     },
         // Check if the current hash matches the link's hash
